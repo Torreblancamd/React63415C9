@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    font-size:30px;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    background-color: rgb(153, 12, 12);
+    border-radius: 4px;
+    color:lightgray;
+    padding:10px;
+    text-decoration: none;
+    width: 8%;
+    text-align: center;
+}
+
+
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(26, 25, 25);
+    height: 60px;
+}
+
+
+footer{
+    background-color: rgb(34, 33, 33);
+    height: 60px;
+    margin-top: 10px;
+    color:white;
+}
+
+
+nav a{
+    background-color: rgb(38, 108, 38);
+    border-radius:4px;
+    color:white;
+    text-decoration: none;
+}
