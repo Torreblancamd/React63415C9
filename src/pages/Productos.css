@@ -1,0 +1,43 @@
+.galeria{
+    display:grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+article{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    text-align:center;
+    background-color: rgb(188, 188, 188);
+    box-shadow: 10px 10px 10px gray;
+}
+
+
+h1{
+    font-size:50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+img{
+    width: 80%;
+    height: 70%;
+    object-fit: fill;
+}
+
+
+h5{
+    font-size:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
